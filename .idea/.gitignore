@@ -1,0 +1,80 @@
+# ===============================
+# ☕️ Compilados Java
+# ===============================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ===============================
+# 🧱 Pastas de build
+# ===============================
+target/
+out/
+build/
+
+# ===============================
+# 🧰 IntelliJ IDEA / JetBrains
+# ===============================
+.idea/
+*.iml
+*.iws
+
+# ===============================
+# ⚙️ Maven / Gradle
+# ===============================
+.mvn/
+.mvnw
+.mvnw.cmd
+.gradle/
+**/target/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===============================
+# 🧪 Testes e relatórios
+# ===============================
+test-output/
+surefire-reports/
+jacoco.exec
+
+# ===============================
+# 💻 Arquivos temporários / cache
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ===============================
+# 🧾 Configurações locais
+# ===============================
+*.env
+*.config
+*.properties.local
+*.settings
+
+# ===============================
+# 📦 IDEs alternativas (VSCode etc)
+# ===============================
+.vscode/
+*.code-workspace
+
+# ===============================
+# 🖥️ Sistema operacional
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===============================
+# 🚫 Git interno acidental (submódulos quebrados)
+# ===============================
+**/.git/
